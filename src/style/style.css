@@ -1,0 +1,53 @@
+.table-responsive > .table-bordered {
+    font-size: 12px;
+}
+
+.table td, .table th {
+   padding: 0.5rem;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.rowContent {
+    border: 1px solid #dee2e6;
+    margin: 10px 5px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+tr.nested {
+    background: #fff !important;
+}
+
+.arrow, .delete {
+    width: 30px;
+    height: 25px;
+    text-align: center;
+}
+
+.delete a {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+td.delete {
+    padding: 0.5rem 0;
+}
+
+.delete a:hover i {
+    color: red;
+}
+
+.collapsed {
+    cursor: pointer;
+}
+
+table tbody tr.collapsed:hover {
+    background: #deffd2;
+}
