@@ -89,7 +89,9 @@ class TableRow extends Component {
 
     handleDelete = () => {
         const {deleteRow, rowData} = this.props
-        deleteRow(Object.values(rowData.data)[0])
+        const wantDelete = confirm('Are you sure you want to delete this record?')
+        if (wantDelete)
+            deleteRow(Object.values(rowData.data)[0])
     }
 }
 
