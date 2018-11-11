@@ -26,7 +26,9 @@ class App extends Component {
     render() {
         const {data} = this.props
         let content
-        if (data.length){
+        if (data === null) {
+            content = <p>Loading...</p>
+        } else if (data.length){
            content = <Table dataRows={data}/>
         } else {
             content = <p>No data to display</p>

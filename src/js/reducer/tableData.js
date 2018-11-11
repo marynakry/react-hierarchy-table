@@ -1,7 +1,7 @@
 import {filterData} from '../helpers'
 import {DELETE_ROW, FETCH_DATA_FULFILLED, FETCH_DATA_REJECTED} from "../constants"
 
-export default (dataState = [], action) => {
+export default (dataState = null, action) => {
     const {type, payload} = action
 
     switch (type) {
