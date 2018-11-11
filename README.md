@@ -6,7 +6,6 @@ The application was designed and developed with React.
 Redux is used for storing data. Webpack is used for bundling JS files.
 Bootstrap is used for UI styling.   
 
----
 
 ## Installation
 
